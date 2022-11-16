@@ -19,7 +19,7 @@ function epalindrom(parola){
     let n = parola.length;
     for (let i = 0; i < n / 2; i++) {  
         // validate the first and last characters are the same  
-        if (parola[i] !== parola[len - 1 - i]) {  
+        if (parola[i] !== parola[n - 1 - i]) {  //sta guardando il indice di  prima i ultima sonno  iguali o diversi lettere e avanti cosi fin che non le passa tutti
           return false;
         } 
     }  
