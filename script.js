@@ -3,9 +3,9 @@ let parolains = prompt("Inserisci parola:");
 let isPal = epalindrom(parolains); //chiama funzione
 console.log(isPal);
 if(isPal) //stampa in html se e palindrom o no
-document.writeln("Il parrola "+parolains+" e palindrom.");
+document.writeln("Il parrola "+parolains+" e palindrom.\n");
 else
-document.writeln("Il parrola "+parolains+" non e palindrom.");
+document.writeln("Il parrola "+parolains+" non e palindrom.\n");
 
 
 
