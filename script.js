@@ -7,6 +7,7 @@ if (isPal) //stampa in html se e palindrom o no
 else
     document.writeln("Il parrola " + parolains + " non e palindrom.\n");
 
+    document.write("<br>");
 //pari o dispari
 //L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
 let numu = 0;
@@ -21,21 +22,24 @@ let rnumpc = Math.floor((Math.random() * 5) + 1);
 if (numu > 0 && numu < 6) {
     somma = numu + rnumpc;
 }else{
-    document.writeln("Inserito numero non valido");
+    document.writeln("Inserito numero non valido.\n");
 }
 //Stabiliamo se la somma dei due numeri è pari o dispari
 let pn = pari(somma);
+console.log(`Numero utente: ${numu} 
+Numero pc: ${rnumpc}
+Somma: ${somma}`);
 //Dichiariamo chi ha vinto.
 if(pn){
     if(pdnum == 0)
-    document.writeln("Hai Vinto !!!");
+    document.writeln("Hai Vinto !!!\n");
     else
-    document.writeln("Hai perso !!!");
+    document.writeln("Hai perso !!!\n");
 }else{
     if(pdnum == 1)
-    document.writeln("Hai Vinto !!!");
+    document.writeln("Hai Vinto !!!\n");
     else
-    document.writeln("Hai perso !!!");
+    document.writeln("Hai perso !!!\n");
 }
 
 
