@@ -17,7 +17,7 @@ console.log(isPal);
 // funzione che verifica se una parola e parindroma o no
 function epalindrom(parola){
     let n = parola.lenght;
-    for (let i = 0; i < len / 2; i++) {  
+    for (let i = 0; i < n / 2; i++) {  
         // validate the first and last characters are the same  
         if (str[i] !== str[len - 1 - i]) {  
           return false;
