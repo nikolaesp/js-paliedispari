@@ -7,6 +7,15 @@ document.writeln("Il parrola "+parolains+" e palindrom.\n");
 else
 document.writeln("Il parrola "+parolains+" non e palindrom.\n");
 
+//pari o dispari
+//L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
+let numu=0;
+let pdnum = prompt("Per pari inserisci 0 per dispari 1");
+if(pdnum==0 || pdnum==1){
+    numu = prompt("Inscerisci numero per giocare con PC:");
+}
+
+
 
 
 
